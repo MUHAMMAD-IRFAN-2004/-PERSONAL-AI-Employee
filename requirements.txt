@@ -1,0 +1,57 @@
+# Python Dependencies for AI Employee
+
+# ========================================
+# Core Watcher Dependencies
+# ========================================
+
+# Google Gmail API (for gmail_watcher.py)
+google-auth>=2.27.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.116.0
+
+# Filesystem monitoring (for filesystem_watcher.py)
+watchdog>=4.0.0
+
+# WhatsApp automation (for whatsapp_watcher.py - optional)
+playwright>=1.41.0
+
+# ========================================
+# Environment & Configuration
+# ========================================
+python-dotenv>=1.0.0
+
+# ========================================
+# Utilities
+# ========================================
+
+# Date/time handling
+python-dateutil>=2.8.2
+
+# HTTP requests (for API integrations)
+requests>=2.31.0
+
+# ========================================
+# Optional: Advanced Features
+# ========================================
+
+# For database operations (Silver tier+)
+# sqlalchemy>=2.0.25
+
+# For Odoo integration (Gold tier+)
+# xmlrpc.client  # Built-in to Python
+
+# For encryption (if needed)
+# cryptography>=42.0.0
+
+# ========================================
+# Development Dependencies (optional)
+# ========================================
+
+# Code formatting
+# black>=24.1.1
+# flake8>=7.0.0
+
+# Testing
+# pytest>=8.0.0
+# pytest-cov>=4.1.0
