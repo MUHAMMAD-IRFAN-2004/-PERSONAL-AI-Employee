@@ -26,6 +26,10 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Any
 
+# Load environment variables from .env file
+from dotenv import load_dotenv
+load_dotenv()
+
 # Google API imports
 try:
     from google.auth.transport.requests import Request
